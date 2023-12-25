@@ -1,0 +1,52 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: red;
+}
+.container
+{
+    max-width: 70%;
+    background-color:nocolor;
+    padding : 34px;
+    margin: auto;
+
+}
+.container h1,p{
+    text-align: center;
+}
+h1{
+    font-size: 35px;
+}
+input{
+    display: block;
+    border: 2px solid black;
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    width: 70%;
+    margin: 11px 0px;
+    padding: 7px;
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.btn{
+    color: white;
+    background-color: rgb(150, 156, 120);
+    padding: 9px 12px;
+    font-size: 20px;
+    border: 2px solid white ; 
+    border-radius: 11px;
+    cursor: pointer;
+}
+.Bus1{
+    width: 100%;
+    position:absolute;
+    z-index: -1;
+    opacity: 0.8;
+}
